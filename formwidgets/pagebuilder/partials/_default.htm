@@ -1,0 +1,19 @@
+<div class="klyp__builder-controls">
+    <button class="btn btn-default klyp__builder-controls-add-raw" data-form="<? echo $formId; ?>">
+        <i class="icon-code"></i> Add Raw HTML
+    </button>
+</div>
+
+<div id="<?= $this->getId() ?>" class="klyp__builder">
+    <input class="klyp__builder-form-id" type="text" value="<? echo $formId; ?>">
+
+    <div id="<?= $this->getId('textarea') ?>" class="klyp__builder-wrapper">
+        <div class="klyp__builder-sortable">
+            <?php echo $markupValue; ?>
+        </div>
+
+        <textarea name="<?= $name ?>" id="<?= $this->getId('textarea') ?>-textarea" class="klyp-textarea">
+            <?= e($value) ?>
+        </textarea>
+    </div>
+</div>

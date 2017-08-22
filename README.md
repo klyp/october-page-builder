@@ -1,2 +1,1 @@
-# october-page-builder
-Klyp Page Builder Plugin
+Klyp's Page Builder is an extremely powerful and easy to use tool to create pages for your October CMS.

@@ -1,0 +1,82 @@
+/* October elements that we want to hide */
+.control-componentlist.bg-s.has-components {
+    display: none;
+}
+
+.control-popover.control-inspector .inspector-fields tr[data-property="oc.alias"] {
+    display: none;
+}
+
+/* Klyp plugin */
+.klyp__builder-controls {
+    display:block;
+    overflow: auto;
+    padding: 20px;
+    width:100%;
+}
+.klyp__builder {
+    display:block;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+    width:100%;
+}
+
+.klyp-textarea,
+.klyp__builder-form-id {
+    display: none;
+}
+
+.klyp__builder-drop-active {
+    background-color: #e67e22;
+    opacity: 0.1;
+}
+
+.klyp__builder-drop-hover {
+    background-color: #e67e22;
+    opacity: 0.5;
+}
+
+.klyp__builder-sortable {
+    display: block;
+}
+
+.klyp__builder-component {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+.klyp__builder-handler,
+.klyp__builder-component-name,
+.klyp__builder-raw,
+.klyp__builder-delete {
+    display: inline-block;
+    padding: 5px 0;
+    vertical-align: top;
+}
+
+.klyp__builder-handler {
+    cursor: move;
+    padding-right: 5px;
+}
+
+.klyp__builder-delete {
+    cursor: pointer;
+}
+
+.klyp__builder-raw-textarea {
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+.klyp__builder-component-name {
+    cursor: pointer;
+}
+
+.trumbowyg-box {
+    margin: 0 auto !important;
+}

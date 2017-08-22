@@ -1,0 +1,13 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        klyp_builder_cms:
+            tab: Klyp Page Builder
+            label: Use for CMS Page?
+            type: switch
+            span: auto
+            default: false
+            comment: Replace default October CMS markup editor with Klyp page builder
